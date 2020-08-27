@@ -1,0 +1,21 @@
+{
+    "platform": "windows64",
+    "jdk": "C:/Program Files/Java/jdk1.8.0_261",
+    "executable": "dchess_client",
+    "classpath": [
+        "client.jar",
+		"junit4.jar",
+		"netty.jar",
+		"hamcrest_core_1.3.jar"
+    ],
+    "removelibs": [
+        "client.jar"
+    ],
+    "mainclass": "jg.proj.chess.net.client.ChessClient",
+    "resources": [
+        "xmls",
+        "chesspieces",
+        "config.txt"
+    ],
+    "output": "chessclient"
+}

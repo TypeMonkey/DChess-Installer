@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+#Whitelist README
+!README.md
+
+# Whitelist .gitignore
+!.gitignore
+
+# Whitelist subdirectories
+!*/
+
+# Whitelist all src/ files
+!/src/**
+
+#Whitelist installer.jar
+!installer.jar
